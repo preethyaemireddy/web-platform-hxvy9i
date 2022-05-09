@@ -1,0 +1,35 @@
+
+body {
+
+  background: #ece4f0;
+
+}
+
+.container {
+
+  padding-left: 40px;
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+
+  body {
+
+    background-color: lightblue;
+
+  }
+
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.container {
+  border-radius: 5px;
+  background-color: hsl(190, 86%, 85%);
+  padding: 20px;
+}
